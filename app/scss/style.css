@@ -1,0 +1,98 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 0.875rem;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  line-height: 1.3;
+}
+body h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+body.noscroll {
+  overflow: hidden;
+}
+body a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+body .btn {
+  padding: 1rem;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 0.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: color 300ms ease-in-out, background-color 300ms ease-in-out;
+}
+body .btn:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 8%);
+}
+body .attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  padding: 7.25rem 1.5rem 7.25rem 1.5rem;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.card {
+  padding: 1.5rem;
+  margin: auto;
+  max-width: 24rem;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+}
+@media (min-width: 64em) {
+  .card {
+    padding: 2.5rem;
+  }
+}
+.card__icon {
+  height: 5.625rem;
+  width: 5.625rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.card__icon img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.card__place {
+  color: hsl(75, 94%, 57%);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+.card__links {
+  padding-top: 0.75rem;
+}
+.card__links :not(:last-child) {
+  margin-bottom: 1rem;
+}
+.card__links a {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */

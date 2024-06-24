@@ -5,26 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app/scss/style.css">
   
   <title>Frontend Mentor | Social links profile</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
+  <div class="container">
 
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
+    <div class="card">
+      <div class="card__icon">
+        <img src="/assets/images/avatar-jessica.jpeg" alt="Icon">
+      </div>
+      <div class="card__name">
+        <h1>Jessica Randall</h1>
+      </div>
+      <div class="card__place">
+           London, United Kingdom
+      </div>
+      <div class="card_description">
+        <p>"Front-end developer and avid reader."</p>
+      </div>
+      <div class="card__links">
+        <a class="btn" href="https://github.com">GitHub</a>
+        <a class="btn" href="https://www.frontendmentor.io">Frontend Mentor</a>
+        <a class="btn" href="https://www.linkedin.com">LinkedIn</a>
+        <a class="btn" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Twitter</a>
+        <a class="btn" href="https://www.instagram.com">Instagram</a>
+      </div>
+    </div>
+  </div>
+
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
